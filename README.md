@@ -1,15 +1,18 @@
-# What is this repository?
+# What is this Library?
 
-Library for android applications with Kotlin.
+`android-application-runtime` gets the runtime information of the Android device.
 
-armyknife is small library, but it can be more small.
-If you have to shrink to application, then proguard-options set to enable.
+# Example
+
+```kotlin
+
+```
 
 # how to implementation into your project
 
 ```groovy
 // /app/build.gradle
 dependencies {
-    implementation 'io.github.eaglesakura.armyknife-jetpack:armyknife-jetpack:${replace version}'
+    implementation 'io.github.eaglesakura.android-application-runtime:android-application-runtime:1.0.0'
 }
 ```
