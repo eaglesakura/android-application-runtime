@@ -5,10 +5,20 @@
 # Example
 
 ```kotlin
+if(ApplicationRuntime.contains(ApplicationRuntime.RUNTIME_ROBOLECTRIC)) {
+    // robolectric only.
+}
 
+if(ApplicationRuntime.contains(ApplicationRuntime.RUNTIME_ANDROID_DEVICE)) {
+    // Android device only(Instrumentation Test or Application)
+}
+
+if(ApplicationRuntime.contains(ApplicationRuntime.RUNTIME_JUNIT)) {
+    // Test only.
+}
 ```
 
-# how to implementation into your project
+# How to Install.
 
 ```groovy
 // /app/build.gradle
